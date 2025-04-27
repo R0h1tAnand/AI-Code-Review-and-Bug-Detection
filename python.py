@@ -20,7 +20,7 @@ def get_prediction(user_input):
     if predicted_class == 1:
         return "Bug"
     else:
-        return "No Bug"
+        return 'No Bug'
 
 # User input for testing
 user_input = input('Enter text for bug detection: ')
