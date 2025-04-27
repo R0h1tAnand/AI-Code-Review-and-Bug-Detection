@@ -131,16 +131,17 @@ def calc_sum(numbers):
 ```
 ├── final_model_2/           # Pre-trained bug detection model files
 ├── final_tokenizer_2/       # Pre-trained tokenizer files
-├── bug_detection.py         # Bug detection script
-├── optimize_code.py         # Code optimization script
+├── python.py  (bug detector file)         # Bug detection script
+├── optimizer
+    |── optimize.py     # Code optimization script
 ├── requirements.txt         # Dependency list
 └── README.md                # This file!
 ```
 
 - **`final_model_2/`**: Trained model for bug detection.
 - **`final_tokenizer_2/`**: Tokenizer used for processing input text.
-- **`bug_detection.py`**: Handles bug detection.
-- **`optimize_code.py`**: Handles code optimization.
+- **`python.py`**: Handles bug detection.
+- **`optimize.py`**: Handles code optimization.
 - **`requirements.txt`**: Lists necessary Python libraries.
 
 ---
