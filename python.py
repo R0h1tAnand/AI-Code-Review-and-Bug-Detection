@@ -23,7 +23,7 @@ def get_prediction(user_input):
         return "No Bug"
 
 # User input for testing
-user_input = input("Enter text for bug detection: ")
+user_input = input('Enter text for bug detection: ')
 
 # Get and print the prediction
 prediction = get_prediction(user_input)
