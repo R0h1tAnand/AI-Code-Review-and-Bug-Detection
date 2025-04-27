@@ -23,7 +23,7 @@ The **Bug Detection** system uses **AI-powered predictions** to detect potential
 
 **Input:**
 ```
-Error 404 displayed when trying to access the user profile page after login.
+User is unable to upload files larger than 2MB, even though the limit is set to 10MB.
 ```
 
 **Output:**
